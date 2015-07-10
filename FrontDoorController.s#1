@@ -580,7 +580,7 @@ Generic symbol for the battery input to a system.</description>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="30.48" y="149.098"/>
-<instance part="U$1" gate="G$2" x="17.272" y="101.6"/>
+<instance part="U$1" gate="G$2" x="12.7" y="100.838"/>
 <instance part="SUPPLY1" gate="G$1" x="7.112" y="5.842"/>
 <instance part="SUPPLY2" gate="G$1" x="14.732" y="5.842"/>
 <instance part="GND1" gate="1" x="32.512" y="8.382"/>
@@ -760,50 +760,50 @@ Generic symbol for the battery input to a system.</description>
 <net name="USB_D+" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="USB_D+"/>
-<wire x1="22.352" y1="109.22" x2="27.432" y2="109.22" width="0.1524" layer="91"/>
-<label x="22.352" y="109.22" size="1.778" layer="95"/>
+<wire x1="17.78" y1="108.458" x2="22.86" y2="108.458" width="0.1524" layer="91"/>
+<label x="17.78" y="108.458" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB_D-" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="USB_D-"/>
-<wire x1="22.352" y1="106.68" x2="27.432" y2="106.68" width="0.1524" layer="91"/>
-<label x="22.352" y="106.68" size="1.778" layer="95"/>
+<wire x1="17.78" y1="105.918" x2="22.86" y2="105.918" width="0.1524" layer="91"/>
+<label x="17.78" y="105.918" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RGB_BLUE" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="RGB_BLUE"/>
-<wire x1="22.352" y1="104.14" x2="27.432" y2="104.14" width="0.1524" layer="91"/>
-<label x="22.352" y="104.14" size="1.778" layer="95"/>
+<wire x1="17.78" y1="103.378" x2="22.86" y2="103.378" width="0.1524" layer="91"/>
+<label x="17.78" y="103.378" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RGB_GREEN" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="RGB_GREEN"/>
-<wire x1="22.352" y1="101.6" x2="27.432" y2="101.6" width="0.1524" layer="91"/>
-<label x="22.352" y="101.6" size="1.778" layer="95"/>
+<wire x1="17.78" y1="100.838" x2="22.86" y2="100.838" width="0.1524" layer="91"/>
+<label x="17.78" y="100.838" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RGB_RED" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="RGB_RED"/>
-<wire x1="22.352" y1="99.06" x2="27.432" y2="99.06" width="0.1524" layer="91"/>
-<label x="22.352" y="99.06" size="1.778" layer="95"/>
+<wire x1="17.78" y1="98.298" x2="22.86" y2="98.298" width="0.1524" layer="91"/>
+<label x="17.78" y="98.298" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SETUP_B" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="!SETUP"/>
-<wire x1="22.352" y1="96.52" x2="27.432" y2="96.52" width="0.1524" layer="91"/>
-<label x="22.352" y="96.52" size="1.778" layer="95"/>
+<wire x1="17.78" y1="95.758" x2="22.86" y2="95.758" width="0.1524" layer="91"/>
+<label x="17.78" y="95.758" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="EN"/>
-<wire x1="22.352" y1="93.98" x2="27.432" y2="93.98" width="0.1524" layer="91"/>
-<label x="22.352" y="93.98" size="1.778" layer="95"/>
+<wire x1="17.78" y1="93.218" x2="22.86" y2="93.218" width="0.1524" layer="91"/>
+<label x="17.78" y="93.218" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

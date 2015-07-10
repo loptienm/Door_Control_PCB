@@ -138,18 +138,14 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="31.42" y2="0" width="0" layer="20"/>
-<wire x1="31.42" y1="0" x2="31.43" y2="49.13" width="0" layer="20"/>
-<wire x1="31.43" y1="49.13" x2="28.91" y2="49.13" width="0" layer="20"/>
-<wire x1="28.91" y1="49.13" x2="28.91" y2="51.7" width="0" layer="20"/>
-<wire x1="28.91" y1="51.7" x2="31.42" y2="51.69" width="0" layer="20"/>
+<wire x1="31.42" y1="0" x2="31.42" y2="49.85" width="0" layer="20"/>
+<wire x1="31.42" y1="49.85" x2="29.02" y2="49.85" width="0" layer="20"/>
+<wire x1="29.02" y1="49.85" x2="29.02" y2="51.69" width="0" layer="20"/>
+<wire x1="29.02" y1="51.69" x2="31.42" y2="51.69" width="0" layer="20"/>
 <wire x1="31.42" y1="51.69" x2="31.42" y2="52.04" width="0" layer="20"/>
 <wire x1="31.42" y1="52.04" x2="31.42" y2="52.06" width="0" layer="20"/>
 <wire x1="31.42" y1="52.04" x2="0" y2="52.06" width="0" layer="20"/>
 <wire x1="0" y1="52.06" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="0" y1="0" x2="31.42" y2="0" x3="15.71" y3="-7" textsize="1.778" layer="48" dtype="diameter"/>
-<dimension x1="0" y1="0" x2="0" y2="52" x3="-6" y3="26" textsize="1.778" layer="48" dtype="diameter"/>
-<dimension x1="31.42" y1="51.69" x2="28.91" y2="51.7" x3="30.173240625" y3="53.763453125" textsize="1.778" layer="48"/>
-<dimension x1="31.42" y1="51.69" x2="31.43" y2="49.13" x3="39.882878125" y3="50.4430375" textsize="1.778" layer="48"/>
 </plain>
 <libraries>
 <library name="Spark">
@@ -290,22 +286,6 @@ COPPER ON PHOTON</text>
 <wire x1="20.32" y1="25.019" x2="20.32" y2="26.797" width="0.3048" layer="51"/>
 <wire x1="20.32" y1="27.559" x2="20.32" y2="29.337" width="0.3048" layer="51"/>
 <wire x1="20.32" y1="30.099" x2="20.32" y2="31.877" width="0.3048" layer="51"/>
-</package>
-</packages>
-</library>
-<library name="SparkFun-Aesthetics">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
 </packages>
 </library>
@@ -490,7 +470,6 @@ design rules under a new name.
 </autorouter>
 <elements>
 <element name="U$1" library="Spark" package="PHOTON_SMD" value="PHOTON_SMD" x="5.57" y="15.16"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="21" y="-8"/>
 </elements>
 <signals>
 <signal name="VIN">

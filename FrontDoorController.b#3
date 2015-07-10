@@ -138,18 +138,14 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="31.42" y2="0" width="0" layer="20"/>
-<wire x1="31.42" y1="0" x2="31.43" y2="49.13" width="0" layer="20"/>
-<wire x1="31.43" y1="49.13" x2="28.91" y2="49.13" width="0" layer="20"/>
-<wire x1="28.91" y1="49.13" x2="28.91" y2="51.7" width="0" layer="20"/>
-<wire x1="28.91" y1="51.7" x2="31.42" y2="51.69" width="0" layer="20"/>
+<wire x1="31.42" y1="0" x2="31.42" y2="49.85" width="0" layer="20"/>
+<wire x1="31.42" y1="49.85" x2="29.02" y2="49.85" width="0" layer="20"/>
+<wire x1="29.02" y1="49.85" x2="29.02" y2="51.69" width="0" layer="20"/>
+<wire x1="29.02" y1="51.69" x2="31.42" y2="51.69" width="0" layer="20"/>
 <wire x1="31.42" y1="51.69" x2="31.42" y2="52.04" width="0" layer="20"/>
 <wire x1="31.42" y1="52.04" x2="31.42" y2="52.06" width="0" layer="20"/>
 <wire x1="31.42" y1="52.04" x2="0" y2="52.06" width="0" layer="20"/>
 <wire x1="0" y1="52.06" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="0" y1="0" x2="31.42" y2="0" x3="15.71" y3="-7" textsize="1.778" layer="48" dtype="diameter"/>
-<dimension x1="0" y1="0" x2="0" y2="52" x3="-6" y3="26" textsize="1.778" layer="48" dtype="diameter"/>
-<dimension x1="31.42" y1="51.69" x2="28.91" y2="51.7" x3="30.173240625" y3="53.763453125" textsize="1.778" layer="48"/>
-<dimension x1="31.42" y1="51.69" x2="31.43" y2="49.13" x3="39.882878125" y3="50.4430375" textsize="1.778" layer="48"/>
 </plain>
 <libraries>
 <library name="Spark">
