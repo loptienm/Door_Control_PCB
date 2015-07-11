@@ -2422,7 +2422,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <sheet>
 <plain>
 <text x="73.66" y="157.48" size="1.778" layer="91">From AA Batts</text>
-<text x="2.54" y="180.34" size="1.778" layer="91">From LIPO?</text>
 <text x="50.8" y="99.06" size="1.778" layer="91">0.6V drop, makes ~6V closer to ~5V</text>
 </plain>
 <instances>
@@ -2596,11 +2595,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="U$1" gate="G$1" pin="3V3"/>
 <wire x1="48.26" y1="177.038" x2="53.34" y2="177.038" width="0.1524" layer="91"/>
 <label x="48.26" y="177.038" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="VBAT"/>
-<wire x1="48.26" y1="166.878" x2="53.34" y2="166.878" width="0.1524" layer="91"/>
-<label x="48.26" y="166.878" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RSTB" class="0">
