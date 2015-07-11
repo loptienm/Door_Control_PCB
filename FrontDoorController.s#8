@@ -2010,7 +2010,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="0.1uf"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="0.1uf"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M05" device="SCREW"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
 </parts>
 <sheets>
 <sheet>

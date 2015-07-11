@@ -2422,7 +2422,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <sheet>
 <plain>
 <text x="73.66" y="157.48" size="1.778" layer="91">From AA Batts</text>
-<text x="2.54" y="180.34" size="1.778" layer="91">From LIPO?</text>
 <text x="50.8" y="99.06" size="1.778" layer="91">0.6V drop, makes ~6V closer to ~5V</text>
 </plain>
 <instances>
