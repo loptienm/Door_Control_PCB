@@ -151,15 +151,15 @@
 <wire x1="0" y1="0" x2="0" y2="49" width="0" layer="20"/>
 <dimension x1="0" y1="0" x2="0" y2="49" x3="-4" y3="24.5" textsize="1.778" layer="48" unit="inch"/>
 <dimension x1="0" y1="0" x2="31.42" y2="0" x3="15.71" y3="-4" textsize="1.778" layer="48" unit="inch"/>
-<text x="3.13" y="1" size="0.6096" layer="51">A02</text>
-<text x="5.7" y="1" size="0.6096" layer="51">A01</text>
-<text x="9.45" y="1" size="0.6096" layer="51">GND</text>
-<text x="13.35" y="1" size="0.6096" layer="51">VIN</text>
-<text x="16" y="1" size="0.6096" layer="51">3V3</text>
-<text x="18.59" y="1.01" size="0.6096" layer="51">VM</text>
-<text x="20.82" y="1" size="0.6096" layer="51">SW1</text>
-<text x="23.4" y="1" size="0.6096" layer="51">SW2</text>
-<text x="26" y="1" size="0.6096" layer="51">DOORSW</text>
+<text x="3.13" y="1" size="0.6096" layer="25">A02</text>
+<text x="5.7" y="1" size="0.6096" layer="25">A01</text>
+<text x="9.45" y="1" size="0.6096" layer="25">GND</text>
+<text x="13.35" y="1" size="0.6096" layer="25">VIN</text>
+<text x="16" y="1" size="0.6096" layer="25">3V3</text>
+<text x="18.59" y="1.01" size="0.6096" layer="25">VM</text>
+<text x="20.82" y="1" size="0.6096" layer="25">SW1</text>
+<text x="23.4" y="1" size="0.6096" layer="25">SW2</text>
+<text x="26" y="1" size="0.6096" layer="25">DOORSW</text>
 </plain>
 <libraries>
 <library name="Spark">

@@ -871,7 +871,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="18.591" y="7.518" size="1.016" layer="21" ratio="12" rot="R180"/>
 </element>
 <element name="U$3" library="Spark" package="PHOTON" value="PHOTON_WITH_HEADERS" x="5.57" y="12.17" smashed="yes"/>
-<element name="R1" library="SparkFun-Resistors" package="0603-RES" value="1K" x="-5" y="-8"/>
+<element name="R1" library="SparkFun-Resistors" package="0603-RES" value="1K" x="21.5" y="21.69" rot="MR180"/>
 </elements>
 <signals>
 <signal name="VIN">
@@ -929,7 +929,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="25.89" y1="36.79" x2="24.638" y2="36.79" width="1.016" layer="1"/>
 <wire x1="24.638" y1="36.79" x2="24.62" y2="36.808" width="1.016" layer="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="9.05" y1="3.467" x2="-5.85" y2="-8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX">
 <contactref element="U$1" pad="3"/>
@@ -1195,8 +1194,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="29" y1="5.383" x2="29" y2="20" width="0.4064" layer="1"/>
 <wire x1="29" y1="20" x2="27.442" y2="21.558" width="0.4064" layer="1"/>
 <contactref element="R1" pad="2"/>
+<wire x1="24.62" y1="21.568" x2="24.498" y2="21.69" width="0.4064" layer="16"/>
+<wire x1="24.498" y1="21.69" x2="22.35" y2="21.69" width="0.4064" layer="16"/>
 <wire x1="25.89" y1="21.558" x2="25.88" y2="21.568" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.15" y1="-8" x2="26.83" y2="3.213" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
@@ -1223,18 +1223,18 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="19,1,55c27e6704c2c3c8"/>
 <approved hash="19,1,2b8063a70baab016"/>
 <approved hash="19,1,436d7aa704faa88d"/>
-<approved hash="19,1,0df3de4a15506962"/>
+<approved hash="19,1,ec7d214615647348"/>
 <approved hash="19,1,014c22c41abc9471"/>
-<approved hash="19,1,e5fe3b440fc87f37"/>
+<approved hash="19,1,0df3de4a15506962"/>
 <approved hash="19,1,15f929fe1c2c8834"/>
 <approved hash="19,1,27ef235a0fc0a17e"/>
 <approved hash="19,1,1e1a2dec19d8b563"/>
 <approved hash="19,1,aa642d441eec3aa9"/>
-<approved hash="19,1,dbd02dfc18244e35"/>
-<approved hash="19,1,c74732ca02404256"/>
 <approved hash="19,1,b3f2265c1148575b"/>
-<approved hash="19,1,ec7d214615647348"/>
+<approved hash="19,1,c74732ca02404256"/>
+<approved hash="19,1,dbd02dfc18244e35"/>
 <approved hash="19,1,a3f13b4e17dc25cc"/>
+<approved hash="19,1,e5fe3b440fc87f37"/>
 </errors>
 </board>
 </drawing>
