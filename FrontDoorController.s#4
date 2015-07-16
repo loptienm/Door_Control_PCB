@@ -2894,7 +2894,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <sheets>
 <sheet>
 <plain>
-<text x="144.78" y="154.94" size="1.778" layer="91">From AA Batts</text>
+<text x="139.7" y="158.75" size="1.778" layer="91">VM from AA Batts</text>
 <text x="123.825" y="102.235" size="1.778" layer="91">0.6V drop, makes ~6V closer to ~5V</text>
 <text x="6.35" y="47.625" size="1.778" layer="91">This is an overlay for the Photon through-hole pins for prototyping purposes</text>
 <text x="143.51" y="162.56" size="1.778" layer="91">Limit switches

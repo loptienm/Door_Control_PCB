@@ -3224,20 +3224,6 @@ from Lockitron</text>
 <label x="48.26" y="63.373" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D1" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="D1"/>
-<wire x1="48.26" y1="58.293" x2="53.34" y2="58.293" width="0.1524" layer="91"/>
-<label x="48.26" y="58.293" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D0" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="D0"/>
-<wire x1="48.26" y1="53.213" x2="53.34" y2="53.213" width="0.1524" layer="91"/>
-<label x="48.26" y="53.213" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="USB_D+" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="USB_D+"/>
@@ -3408,6 +3394,11 @@ from Lockitron</text>
 <wire x1="48.26" y1="121.158" x2="53.34" y2="121.158" width="0.1524" layer="91"/>
 <label x="48.26" y="121.158" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="D0"/>
+<wire x1="48.26" y1="53.213" x2="53.34" y2="53.213" width="0.1524" layer="91"/>
+<label x="48.26" y="53.213" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SW2" class="0">
 <segment>
@@ -3419,6 +3410,11 @@ from Lockitron</text>
 <pinref part="U$1" gate="G$1" pin="D1"/>
 <wire x1="48.26" y1="126.238" x2="53.34" y2="126.238" width="0.1524" layer="91"/>
 <label x="48.26" y="126.238" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="D1"/>
+<wire x1="48.26" y1="58.293" x2="53.34" y2="58.293" width="0.1524" layer="91"/>
+<label x="48.26" y="58.293" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">

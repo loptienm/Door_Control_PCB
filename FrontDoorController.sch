@@ -3323,7 +3323,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Spark" deviceset="PHOTON_SMD" device=""/>
+<part name="PHOTON" library="Spark" deviceset="PHOTON_SMD" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U$2" library="SparkFun-PowerIC" deviceset="TB6612FNG" device="" value="TB6612FNG"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="3528" value="10uf"/>
@@ -3347,8 +3347,8 @@ from Lockitron</text>
 <text x="114.3" y="134.62" size="1.778" layer="91">|-&gt; 1K Ohm -&gt; GND</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="30.48" y="149.098"/>
-<instance part="U$1" gate="G$2" x="66.167" y="156.21"/>
+<instance part="PHOTON" gate="G$1" x="30.48" y="149.098"/>
+<instance part="PHOTON" gate="G$2" x="66.167" y="156.21"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
 <instance part="U$2" gate="G$1" x="211.455" y="142.24"/>
@@ -3369,7 +3369,7 @@ from Lockitron</text>
 <nets>
 <net name="VIN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
+<pinref part="PHOTON" gate="G$1" pin="VIN"/>
 <wire x1="12.7" y1="177.038" x2="7.62" y2="177.038" width="0.1524" layer="91"/>
 <label x="7.62" y="177.038" size="1.778" layer="95"/>
 </segment>
@@ -3400,12 +3400,12 @@ from Lockitron</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@2"/>
+<pinref part="PHOTON" gate="G$1" pin="GND@2"/>
 <wire x1="12.7" y1="171.958" x2="7.62" y2="171.958" width="0.1524" layer="91"/>
 <label x="7.62" y="171.958" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@21"/>
+<pinref part="PHOTON" gate="G$1" pin="GND@21"/>
 <wire x1="48.26" y1="161.798" x2="53.34" y2="161.798" width="0.1524" layer="91"/>
 <label x="48.26" y="161.798" size="1.778" layer="95"/>
 </segment>
@@ -3470,7 +3470,7 @@ from Lockitron</text>
 </net>
 <net name="TX" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="TX"/>
+<pinref part="PHOTON" gate="G$1" pin="TX"/>
 <wire x1="12.7" y1="166.878" x2="7.62" y2="166.878" width="0.1524" layer="91"/>
 <label x="7.62" y="166.878" size="1.778" layer="95"/>
 </segment>
@@ -3482,7 +3482,7 @@ from Lockitron</text>
 </net>
 <net name="RX" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="RX"/>
+<pinref part="PHOTON" gate="G$1" pin="RX"/>
 <wire x1="12.7" y1="161.798" x2="7.62" y2="161.798" width="0.1524" layer="91"/>
 <label x="7.62" y="161.798" size="1.778" layer="95"/>
 </segment>
@@ -3494,7 +3494,7 @@ from Lockitron</text>
 </net>
 <net name="WKP" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="WKP"/>
+<pinref part="PHOTON" gate="G$1" pin="WKP"/>
 <wire x1="12.7" y1="156.718" x2="7.62" y2="156.718" width="0.1524" layer="91"/>
 <label x="7.62" y="156.718" size="1.778" layer="95"/>
 </segment>
@@ -3506,7 +3506,7 @@ from Lockitron</text>
 </net>
 <net name="DAC" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="DAC"/>
+<pinref part="PHOTON" gate="G$1" pin="DAC"/>
 <wire x1="12.7" y1="151.638" x2="7.62" y2="151.638" width="0.1524" layer="91"/>
 <label x="7.62" y="151.638" size="1.778" layer="95"/>
 </segment>
@@ -3518,7 +3518,7 @@ from Lockitron</text>
 </net>
 <net name="A5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="A5"/>
+<pinref part="PHOTON" gate="G$1" pin="A5"/>
 <wire x1="12.7" y1="146.558" x2="7.62" y2="146.558" width="0.1524" layer="91"/>
 <label x="7.62" y="146.558" size="1.778" layer="95"/>
 </segment>
@@ -3530,7 +3530,7 @@ from Lockitron</text>
 </net>
 <net name="A4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="A4"/>
+<pinref part="PHOTON" gate="G$1" pin="A4"/>
 <wire x1="12.7" y1="141.478" x2="7.62" y2="141.478" width="0.1524" layer="91"/>
 <label x="7.62" y="141.478" size="1.778" layer="95"/>
 </segment>
@@ -3542,7 +3542,7 @@ from Lockitron</text>
 </net>
 <net name="A3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="A3"/>
+<pinref part="PHOTON" gate="G$1" pin="A3"/>
 <wire x1="12.7" y1="136.398" x2="7.62" y2="136.398" width="0.1524" layer="91"/>
 <label x="7.62" y="136.398" size="1.778" layer="95"/>
 </segment>
@@ -3554,7 +3554,7 @@ from Lockitron</text>
 </net>
 <net name="A2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="A2"/>
+<pinref part="PHOTON" gate="G$1" pin="A2"/>
 <wire x1="12.7" y1="131.318" x2="7.62" y2="131.318" width="0.1524" layer="91"/>
 <label x="7.62" y="131.318" size="1.778" layer="95"/>
 </segment>
@@ -3566,7 +3566,7 @@ from Lockitron</text>
 </net>
 <net name="A1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="A1"/>
+<pinref part="PHOTON" gate="G$1" pin="A1"/>
 <wire x1="12.7" y1="126.238" x2="7.62" y2="126.238" width="0.1524" layer="91"/>
 <label x="7.62" y="126.238" size="1.778" layer="95"/>
 </segment>
@@ -3578,7 +3578,7 @@ from Lockitron</text>
 </net>
 <net name="A0" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="A0"/>
+<pinref part="PHOTON" gate="G$1" pin="A0"/>
 <wire x1="12.7" y1="121.158" x2="7.62" y2="121.158" width="0.1524" layer="91"/>
 <label x="7.62" y="121.158" size="1.778" layer="95"/>
 </segment>
@@ -3590,7 +3590,7 @@ from Lockitron</text>
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="3V3"/>
+<pinref part="PHOTON" gate="G$1" pin="3V3"/>
 <wire x1="48.26" y1="177.038" x2="53.34" y2="177.038" width="0.1524" layer="91"/>
 <label x="48.26" y="177.038" size="1.778" layer="95"/>
 </segment>
@@ -3607,7 +3607,7 @@ from Lockitron</text>
 </net>
 <net name="RSTB" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="!RST"/>
+<pinref part="PHOTON" gate="G$1" pin="!RST"/>
 <wire x1="48.26" y1="171.958" x2="53.34" y2="171.958" width="0.1524" layer="91"/>
 <label x="48.26" y="171.958" size="1.778" layer="95"/>
 </segment>
@@ -3619,7 +3619,7 @@ from Lockitron</text>
 </net>
 <net name="D7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D7"/>
+<pinref part="PHOTON" gate="G$1" pin="D7"/>
 <wire x1="48.26" y1="156.718" x2="53.34" y2="156.718" width="0.1524" layer="91"/>
 <label x="48.26" y="156.718" size="1.778" layer="95"/>
 </segment>
@@ -3631,7 +3631,7 @@ from Lockitron</text>
 </net>
 <net name="PWMA" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D3"/>
+<pinref part="PHOTON" gate="G$1" pin="D3"/>
 <wire x1="48.26" y1="136.398" x2="53.34" y2="136.398" width="0.1524" layer="91"/>
 <label x="48.514" y="136.398" size="1.778" layer="95"/>
 </segment>
@@ -3648,7 +3648,7 @@ from Lockitron</text>
 </net>
 <net name="STBY" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D6"/>
+<pinref part="PHOTON" gate="G$1" pin="D6"/>
 <wire x1="48.26" y1="151.638" x2="53.34" y2="151.638" width="0.1524" layer="91"/>
 <label x="48.514" y="151.638" size="1.778" layer="95"/>
 </segment>
@@ -3665,49 +3665,49 @@ from Lockitron</text>
 </net>
 <net name="USB_D+" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="USB_D+"/>
+<pinref part="PHOTON" gate="G$2" pin="USB_D+"/>
 <wire x1="71.247" y1="163.83" x2="76.327" y2="163.83" width="0.1524" layer="91"/>
 <label x="71.247" y="163.83" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB_D-" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="USB_D-"/>
+<pinref part="PHOTON" gate="G$2" pin="USB_D-"/>
 <wire x1="71.247" y1="161.29" x2="76.327" y2="161.29" width="0.1524" layer="91"/>
 <label x="71.247" y="161.29" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RGB_BLUE" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="RGB_BLUE"/>
+<pinref part="PHOTON" gate="G$2" pin="RGB_BLUE"/>
 <wire x1="71.247" y1="158.75" x2="76.327" y2="158.75" width="0.1524" layer="91"/>
 <label x="71.247" y="158.75" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RGB_GREEN" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="RGB_GREEN"/>
+<pinref part="PHOTON" gate="G$2" pin="RGB_GREEN"/>
 <wire x1="71.247" y1="156.21" x2="76.327" y2="156.21" width="0.1524" layer="91"/>
 <label x="71.247" y="156.21" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RGB_RED" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="RGB_RED"/>
+<pinref part="PHOTON" gate="G$2" pin="RGB_RED"/>
 <wire x1="71.247" y1="153.67" x2="76.327" y2="153.67" width="0.1524" layer="91"/>
 <label x="71.247" y="153.67" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SETUPB" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="!SETUP"/>
+<pinref part="PHOTON" gate="G$2" pin="!SETUP"/>
 <wire x1="71.247" y1="151.13" x2="76.327" y2="151.13" width="0.1524" layer="91"/>
 <label x="71.247" y="151.13" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN" class="0">
 <segment>
-<pinref part="U$1" gate="G$2" pin="EN"/>
+<pinref part="PHOTON" gate="G$2" pin="EN"/>
 <wire x1="71.247" y1="148.59" x2="76.327" y2="148.59" width="0.1524" layer="91"/>
 <label x="71.247" y="148.59" size="1.778" layer="95"/>
 </segment>
@@ -3782,7 +3782,7 @@ from Lockitron</text>
 <label x="226.695" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D5"/>
+<pinref part="PHOTON" gate="G$1" pin="D5"/>
 <wire x1="48.26" y1="146.558" x2="53.34" y2="146.558" width="0.1524" layer="91"/>
 <label x="48.26" y="146.558" size="1.778" layer="95"/>
 </segment>
@@ -3799,7 +3799,7 @@ from Lockitron</text>
 <label x="226.695" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D4"/>
+<pinref part="PHOTON" gate="G$1" pin="D4"/>
 <wire x1="48.26" y1="141.478" x2="53.34" y2="141.478" width="0.1524" layer="91"/>
 <label x="48.26" y="141.478" size="1.778" layer="95"/>
 </segment>
@@ -3811,7 +3811,7 @@ from Lockitron</text>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VBAT"/>
+<pinref part="PHOTON" gate="G$1" pin="VBAT"/>
 <wire x1="48.26" y1="166.878" x2="53.34" y2="166.878" width="0.1524" layer="91"/>
 <label x="48.26" y="166.878" size="1.778" layer="95"/>
 </segment>
@@ -3828,7 +3828,7 @@ from Lockitron</text>
 <label x="170.815" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D0"/>
+<pinref part="PHOTON" gate="G$1" pin="D0"/>
 <wire x1="48.26" y1="121.158" x2="53.34" y2="121.158" width="0.1524" layer="91"/>
 <label x="48.26" y="121.158" size="1.778" layer="95"/>
 </segment>
@@ -3845,7 +3845,7 @@ from Lockitron</text>
 <label x="170.815" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D1"/>
+<pinref part="PHOTON" gate="G$1" pin="D1"/>
 <wire x1="48.26" y1="126.238" x2="53.34" y2="126.238" width="0.1524" layer="91"/>
 <label x="48.26" y="126.238" size="1.778" layer="95"/>
 </segment>
@@ -3862,7 +3862,7 @@ from Lockitron</text>
 <label x="170.815" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D2"/>
+<pinref part="PHOTON" gate="G$1" pin="D2"/>
 <wire x1="48.26" y1="131.318" x2="53.34" y2="131.318" width="0.1524" layer="91"/>
 <label x="48.26" y="131.318" size="1.778" layer="95"/>
 </segment>

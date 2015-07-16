@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -3211,18 +3211,6 @@ from Lockitron</text>
 <label x="48.514" y="83.693" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D2" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D2"/>
-<wire x1="48.26" y1="131.318" x2="53.34" y2="131.318" width="0.1524" layer="91"/>
-<label x="48.26" y="131.318" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="D2"/>
-<wire x1="48.26" y1="63.373" x2="53.34" y2="63.373" width="0.1524" layer="91"/>
-<label x="48.26" y="63.373" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="USB_D+" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="USB_D+"/>
@@ -3415,11 +3403,21 @@ from Lockitron</text>
 <label x="48.26" y="58.293" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="DOORSW" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="10"/>
 <wire x1="170.815" y1="167.64" x2="174.625" y2="167.64" width="0.1524" layer="91"/>
 <label x="170.815" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="D2"/>
+<wire x1="48.26" y1="131.318" x2="53.34" y2="131.318" width="0.1524" layer="91"/>
+<label x="48.26" y="131.318" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="D2"/>
+<wire x1="48.26" y1="63.373" x2="53.34" y2="63.373" width="0.1524" layer="91"/>
+<label x="48.26" y="63.373" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
