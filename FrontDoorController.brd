@@ -672,6 +672,51 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="Mikes-Stuff">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find boards and modules: Arduino footprints, breadboards, non-RF modules, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SPARK_LOGO">
+<polygon width="0.0254" layer="25">
+<vertex x="0.7366" y="3.8354"/>
+<vertex x="1.7018" y="2.3114"/>
+<vertex x="0.7366" y="0.7366"/>
+<vertex x="2.286" y="1.7526"/>
+<vertex x="3.8608" y="0.7112"/>
+<vertex x="2.8448" y="2.3114"/>
+<vertex x="3.81" y="3.8608"/>
+<vertex x="2.286" y="2.8702"/>
+</polygon>
+<polygon width="0.0254" layer="25">
+<vertex x="2.286" y="4.5466"/>
+<vertex x="2.032" y="3.3782"/>
+<vertex x="2.286" y="3.2258"/>
+<vertex x="2.54" y="3.3782"/>
+</polygon>
+<polygon width="0.0254" layer="25">
+<vertex x="0.0508" y="2.3114"/>
+<vertex x="1.2192" y="2.0828"/>
+<vertex x="1.3716" y="2.3114"/>
+<vertex x="1.2192" y="2.54"/>
+</polygon>
+<polygon width="0.0254" layer="25">
+<vertex x="3.3528" y="2.54"/>
+<vertex x="3.2004" y="2.3114"/>
+<vertex x="3.3528" y="2.0828"/>
+<vertex x="4.4704" y="2.3114"/>
+</polygon>
+<polygon width="0.0254" layer="25">
+<vertex x="2.032" y="1.1938"/>
+<vertex x="2.286" y="0.0762"/>
+<vertex x="2.54" y="1.1938"/>
+<vertex x="2.286" y="1.3716"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -856,7 +901,6 @@ Please make sure your boards conform to these design rules.</description>
 <elements>
 <element name="PHOTON" library="Spark" package="PHOTON_SMD" value="PHOTON_SMD" x="5.57" y="12.16" smashed="yes">
 <attribute name="NAME" x="7.602" y="10.382" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="7.602" y="8.858" size="1.27" layer="27"/>
 </element>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="87" y="34"/>
 <element name="U$2" library="SparkFun-PowerIC" package="SSOP24" value="TB6612FNG" x="16.24" y="33.73" rot="MR90">
@@ -879,6 +923,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U$3" library="Spark" package="PHOTON" value="PHOTON_WITH_HEADERS" x="5.57" y="12.17" smashed="yes"/>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="1K" x="21.5" y="21.69" rot="MR180"/>
+<element name="U$1" library="Mikes-Stuff" package="SPARK_LOGO" value="SPARK_LOGOLARGE" x="2" y="9"/>
 </elements>
 <signals>
 <signal name="VIN">
