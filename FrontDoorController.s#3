@@ -2894,7 +2894,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <sheets>
 <sheet>
 <plain>
-<text x="144.78" y="154.94" size="1.778" layer="91">From AA Batts</text>
+<text x="139.7" y="158.75" size="1.778" layer="91">VM from AA Batts</text>
 <text x="123.825" y="102.235" size="1.778" layer="91">0.6V drop, makes ~6V closer to ~5V</text>
 <text x="6.35" y="47.625" size="1.778" layer="91">This is an overlay for the Photon through-hole pins for prototyping purposes</text>
 <text x="143.51" y="162.56" size="1.778" layer="91">Limit switches
@@ -2940,16 +2940,15 @@ from Lockitron</text>
 <wire x1="235.585" y1="144.78" x2="226.695" y2="144.78" width="0.1524" layer="91"/>
 <label x="226.695" y="144.78" size="1.778" layer="95"/>
 <label x="198.755" y="177.8" size="1.778" layer="95"/>
+<wire x1="198.755" y1="177.8" x2="180.975" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="180.975" y1="177.8" x2="180.975" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="5"/>
+<wire x1="180.975" y1="154.94" x2="170.815" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="VIN"/>
 <wire x1="12.7" y1="109.093" x2="7.62" y2="109.093" width="0.1524" layer="91"/>
 <label x="7.62" y="109.093" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="7"/>
-<wire x1="170.815" y1="160.02" x2="174.625" y2="160.02" width="0.1524" layer="91"/>
-<label x="170.815" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3224,20 +3223,6 @@ from Lockitron</text>
 <label x="48.26" y="63.373" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D1" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="D1"/>
-<wire x1="48.26" y1="58.293" x2="53.34" y2="58.293" width="0.1524" layer="91"/>
-<label x="48.26" y="58.293" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D0" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="D0"/>
-<wire x1="48.26" y1="53.213" x2="53.34" y2="53.213" width="0.1524" layer="91"/>
-<label x="48.26" y="53.213" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="USB_D+" class="0">
 <segment>
 <pinref part="U$1" gate="G$2" pin="USB_D+"/>
@@ -3337,13 +3322,12 @@ from Lockitron</text>
 <wire x1="219.075" y1="180.34" x2="208.915" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="208.915" y1="180.34" x2="208.915" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="5"/>
-<wire x1="170.815" y1="154.94" x2="177.165" y2="154.94" width="0.1524" layer="91"/>
-<label x="170.815" y="154.94" size="1.778" layer="95"/>
 <wire x1="208.915" y1="180.34" x2="177.165" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="177.165" y1="180.34" x2="177.165" y2="154.94" width="0.1524" layer="91"/>
 <junction x="219.075" y="180.34"/>
 <junction x="208.915" y="180.34"/>
+<pinref part="JP1" gate="G$1" pin="7"/>
+<wire x1="170.815" y1="160.02" x2="177.165" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="177.165" y1="160.02" x2="177.165" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -3408,6 +3392,11 @@ from Lockitron</text>
 <wire x1="48.26" y1="121.158" x2="53.34" y2="121.158" width="0.1524" layer="91"/>
 <label x="48.26" y="121.158" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="D0"/>
+<wire x1="48.26" y1="53.213" x2="53.34" y2="53.213" width="0.1524" layer="91"/>
+<label x="48.26" y="53.213" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SW2" class="0">
 <segment>
@@ -3419,6 +3408,11 @@ from Lockitron</text>
 <pinref part="U$1" gate="G$1" pin="D1"/>
 <wire x1="48.26" y1="126.238" x2="53.34" y2="126.238" width="0.1524" layer="91"/>
 <label x="48.26" y="126.238" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="D1"/>
+<wire x1="48.26" y1="58.293" x2="53.34" y2="58.293" width="0.1524" layer="91"/>
+<label x="48.26" y="58.293" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
