@@ -413,6 +413,76 @@ COPPER ON PHOTON</text>
 <wire x1="20.32" y1="27.559" x2="20.32" y2="29.337" width="0.3048" layer="51"/>
 <wire x1="20.32" y1="30.099" x2="20.32" y2="31.877" width="0.3048" layer="51"/>
 </package>
+<package name="SPARK_LOGO2">
+<polygon width="0.0254" layer="29">
+<vertex x="2.2606" y="1.1684"/>
+<vertex x="1.6764" y="1.2954"/>
+<vertex x="1.6002" y="1.1684"/>
+<vertex x="1.6764" y="1.0414"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.0254" y="1.1684"/>
+<vertex x="0.6096" y="1.2954"/>
+<vertex x="0.7112" y="1.1684"/>
+<vertex x="0.6096" y="1.0414"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.381" y="1.9304"/>
+<vertex x="0.8636" y="1.1684"/>
+<vertex x="0.3556" y="0.3556"/>
+<vertex x="1.143" y="0.8636"/>
+<vertex x="1.9304" y="0.381"/>
+<vertex x="1.4224" y="1.1684"/>
+<vertex x="1.9304" y="1.9304"/>
+<vertex x="1.143" y="1.4478"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="1.143" y="2.286"/>
+<vertex x="1.016" y="1.6764"/>
+<vertex x="1.143" y="1.6002"/>
+<vertex x="1.27" y="1.6764"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="1.143" y="0.7112"/>
+<vertex x="1.016" y="0.635"/>
+<vertex x="1.143" y="0.0254"/>
+<vertex x="1.27" y="0.635"/>
+</polygon>
+<polygon width="0.0254" layer="51">
+<vertex x="2.2606" y="1.1684"/>
+<vertex x="1.6764" y="1.2954"/>
+<vertex x="1.6002" y="1.1684"/>
+<vertex x="1.6764" y="1.0414"/>
+</polygon>
+<polygon width="0.0254" layer="51">
+<vertex x="0.0254" y="1.1684"/>
+<vertex x="0.6096" y="1.2954"/>
+<vertex x="0.7112" y="1.1684"/>
+<vertex x="0.6096" y="1.0414"/>
+</polygon>
+<polygon width="0.0254" layer="51">
+<vertex x="0.381" y="1.9304"/>
+<vertex x="0.8636" y="1.1684"/>
+<vertex x="0.3556" y="0.3556"/>
+<vertex x="1.143" y="0.8636"/>
+<vertex x="1.9304" y="0.381"/>
+<vertex x="1.4224" y="1.1684"/>
+<vertex x="1.9304" y="1.9304"/>
+<vertex x="1.143" y="1.4478"/>
+</polygon>
+<polygon width="0.0254" layer="51">
+<vertex x="1.143" y="2.286"/>
+<vertex x="1.016" y="1.6764"/>
+<vertex x="1.143" y="1.6002"/>
+<vertex x="1.27" y="1.6764"/>
+</polygon>
+<polygon width="0.0254" layer="51">
+<vertex x="1.143" y="0.7112"/>
+<vertex x="1.016" y="0.635"/>
+<vertex x="1.143" y="0.0254"/>
+<vertex x="1.27" y="0.635"/>
+</polygon>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Aesthetics">
@@ -856,7 +926,6 @@ Please make sure your boards conform to these design rules.</description>
 <elements>
 <element name="PHOTON" library="Spark" package="PHOTON_SMD" value="PHOTON_SMD" x="5.57" y="12.16" smashed="yes">
 <attribute name="NAME" x="7.602" y="10.382" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="7.602" y="8.858" size="1.27" layer="27"/>
 </element>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="87" y="34"/>
 <element name="U$2" library="SparkFun-PowerIC" package="SSOP24" value="TB6612FNG" x="16.24" y="33.73" rot="MR90">
@@ -879,6 +948,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U$3" library="Spark" package="PHOTON" value="PHOTON_WITH_HEADERS" x="5.57" y="12.17" smashed="yes"/>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="1K" x="21.5" y="21.69" rot="MR180"/>
+<element name="U$1" library="Spark" package="SPARK_LOGO2" value="SPARK_LOGO2" x="16" y="9"/>
 </elements>
 <signals>
 <signal name="VIN">

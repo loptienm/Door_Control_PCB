@@ -161,6 +161,9 @@
 <dimension x1="31.42" y1="49.05" x2="31.42" y2="48" x3="37" y3="48.525" textsize="0.6096" layer="48" unit="mil"/>
 <dimension x1="31.42" y1="45.4" x2="31.42" y2="48" x3="34" y3="46.7" textsize="0.6096" layer="48" unit="mil"/>
 <dimension x1="28.82" y1="48" x2="31.42" y2="48" x3="30.12" y3="54" textsize="0.6096" layer="48" unit="mil"/>
+<text x="18.49" y="-3.36" size="1.6764" layer="48">Inch</text>
+<text x="-4.73" y="27.43" size="1.6764" layer="48" rot="R90">Inch</text>
+<text x="39" y="51" size="1.016" layer="48" rot="R90">Mil</text>
 </plain>
 <libraries>
 <library name="Spark">
