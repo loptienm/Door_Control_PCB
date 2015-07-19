@@ -157,7 +157,7 @@
 <text x="16" y="1" size="0.6096" layer="25">VM</text>
 <text x="20.82" y="1" size="0.6096" layer="25">SW1</text>
 <text x="23.4" y="1" size="0.6096" layer="25">SW2</text>
-<text x="26" y="1" size="0.6096" layer="25">DOORSW</text>
+<text x="26" y="1" size="0.6096" layer="25">DOOR COM</text>
 <dimension x1="31.42" y1="49.05" x2="31.42" y2="48" x3="37" y3="48.525" textsize="0.6096" layer="48" unit="mil"/>
 <dimension x1="31.42" y1="45.4" x2="31.42" y2="48" x3="34" y3="46.7" textsize="0.6096" layer="48" unit="mil"/>
 <dimension x1="28.82" y1="48" x2="31.42" y2="48" x3="30.12" y3="54" textsize="0.6096" layer="48" unit="mil"/>
@@ -165,6 +165,10 @@
 <text x="-4.73" y="27.43" size="1.6764" layer="48" rot="R90">Inch</text>
 <text x="39" y="51" size="1.016" layer="48" rot="R90">Mil</text>
 <text x="13.27" y="1" size="0.6096" layer="25">GND</text>
+<text x="17.28" y="4.92" size="0.6096" layer="21">SW NC</text>
+<text x="25.91" y="4.9" size="0.6096" layer="21">DOOR NC</text>
+<text x="20.66" y="4.92" size="0.6096" layer="21">SW3</text>
+<text x="23.17" y="4.9" size="0.6096" layer="21">SW4</text>
 </plain>
 <libraries>
 <library name="Spark">
