@@ -3703,9 +3703,8 @@ from Lockitron</text>
 <label x="48.26" y="109.093" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="6"/>
-<wire x1="170.815" y1="157.48" x2="174.625" y2="157.48" width="0.1524" layer="91"/>
-<label x="170.815" y="157.48" size="1.778" layer="95"/>
+<wire x1="170.688" y1="160.02" x2="174.752" y2="160.02" width="0.1524" layer="91"/>
+<label x="170.688" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RSTB" class="0">
@@ -3865,12 +3864,12 @@ from Lockitron</text>
 <wire x1="219.075" y1="180.34" x2="208.915" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="208.915" y1="180.34" x2="208.915" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="208.915" y1="180.34" x2="177.165" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="208.915" y1="180.34" x2="177.292" y2="180.34" width="0.1524" layer="91"/>
 <junction x="219.075" y="180.34"/>
 <junction x="208.915" y="180.34"/>
-<pinref part="JP1" gate="G$1" pin="7"/>
-<wire x1="170.815" y1="160.02" x2="177.165" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="177.165" y1="160.02" x2="177.165" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="170.688" y1="157.48" x2="177.292" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="177.292" y1="157.48" x2="177.292" y2="180.34" width="0.1524" layer="91"/>
+<label x="170.942" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
